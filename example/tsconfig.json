@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-tijuca-alimentos-system": ["../src/index"],
+      "expo-tijuca-alimentos-system/*": ["../src/*"]
+    }
+  }
+}
